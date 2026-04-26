@@ -13,4 +13,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Order extends BaseEntity {
 
+  private String name;
+
+  private int quantity;
+
 }
